@@ -21,10 +21,11 @@ score = Sales * Rating
 
 Return the name of the active seller with the highest score.
 
-TEST ---->  go run .
 Ignore sellers where Active is false.
 
 If two active sellers have the same score, return the one that appears first.
 
 If there are no active sellers, return an empty string.
+
+TEST ---->  go run .
 
